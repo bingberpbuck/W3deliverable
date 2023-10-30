@@ -1,0 +1,80 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>David's Personal Website</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        </head>
+    </head>
+
+    <body>
+        <img
+            src = "IMG_5076.JPG"
+            width = "301.5"
+            height = "552"
+        />
+        
+
+        <div id = "header">
+            <style>
+                </style>
+            <h1> <strong> David Lee </strong> </h1>
+            <h3> <strong> Class of 2027 </strong> </h3>
+        </div>
+
+        <div id = "list">
+            <p> Hello! My name's David and I'm a freshman in SAS studying economics and computer science. Some of my hobbies/interests include: </p>
+            <ul> 
+                <li> Running </li>
+                <li> Piano </li>
+                <li> Karaoke </li>
+                <li> A lot of sports </li>
+            </ul>
+        </div>
+
+        <div id = "links">
+            <p> Check out my Github: </p>
+            <a target="_blank" href=https://github.com/bingberpbuck>
+                Github
+            </a>
+        </div>
+    </body>
+</html>
+
+body {
+    text-align: center;
+    background-color: rgb(183, 243, 250);
+    font-family: "Trirong", serif;
+}
+
+img {
+    border-image-width: 10000000px;
+    margin-bottom: 10px;
+    border: 10px solid rgb(10, 21, 120);
+}
+
+#header {
+    background-color: rgb(211, 248, 255);
+    color: rgb(10, 21, 120);
+    padding: 20px 0px 20px 10px; 
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+    border: 10px solid rgb(10, 21, 120);
+}
+
+#list {
+    background-color: rgb(211, 248, 255);
+    color: rgb(10, 21, 120);
+    padding: 20px 20px 20px 20px; 
+    margin-bottom: 10px;
+    border: 10px solid rgb(10, 21, 120);
+    text-align: left;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#links {
+    color: rgb(10, 21, 120);
+}

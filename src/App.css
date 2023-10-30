@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  text-align: center;
+  background-color: rgb(183, 243, 250);
+  font-family: "Trirong", serif;
+}
+
+img {
+  border-image-width: 10000000px;
+  margin-bottom: 10px;
+  border: 10px solid rgb(10, 21, 120);
+}
+
+#header {
+  background-color: rgb(211, 248, 255);
+  color: rgb(10, 21, 120);
+  padding: 20px 0px 20px 10px; 
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-bottom: 10px;
+  border: 10px solid rgb(10, 21, 120);
+}
+
+#list {
+  background-color: rgb(211, 248, 255);
+  color: rgb(10, 21, 120);
+  padding: 20px 20px 20px 20px; 
+  margin-bottom: 10px;
+  border: 10px solid rgb(10, 21, 120);
+  text-align: left;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+#links {
+  color: rgb(10, 21, 120);
+}
